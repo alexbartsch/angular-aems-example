@@ -1,0 +1,9 @@
+{
+  "name": "angular-aems",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^6.1.0",
+    "@angular/core": "^6.1.0",
+    "rxjs": "~6.2.0"
+  }
+}

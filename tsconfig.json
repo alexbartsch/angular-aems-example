@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "angular-aems": [
+        "dist/angular-aems"
+      ],
+      "angular-aems/*": [
+        "dist/angular-aems/*"
+      ]
+    }
   }
 }
