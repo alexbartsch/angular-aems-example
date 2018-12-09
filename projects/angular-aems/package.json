@@ -1,6 +1,18 @@
 {
   "name": "angular-aems",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "description": "API Entity Management Service for Angular",
+  "keywords": [
+    "Angular",
+    "REST",
+    "CRUD",
+    "API",
+    "Entities"
+  ],
+  "author": {
+    "name": "Alexander Bartsch",
+    "email": "mail@alexbartsch.de"
+  },
   "peerDependencies": {
     "@angular/common": "^6.1.0",
     "@angular/core": "^6.1.0",
