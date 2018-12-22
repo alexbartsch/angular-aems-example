@@ -4,10 +4,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build angular-aems",
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "lib:build": "ng build angular-aems",
+    "lib:publish": "cd dist/angular-aems && yarn publish"
   },
   "private": true,
   "dependencies": {
