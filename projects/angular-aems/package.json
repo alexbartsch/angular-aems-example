@@ -1,6 +1,6 @@
 {
   "name": "angular-aems",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "API Entity Management Service for Angular",
   "keywords": [
     "Angular",
@@ -14,8 +14,8 @@
     "email": "mail@alexbartsch.de"
   },
   "peerDependencies": {
-    "@angular/common": "^6.1.0",
-    "@angular/core": "^6.1.0",
-    "rxjs": "~6.2.0"
+    "@angular/common": "^7.1.4",
+    "@angular/core": "^7.1.4",
+    "rxjs": "~6.3.3"
   }
 }
