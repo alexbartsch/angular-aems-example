@@ -1,14 +1,63 @@
-<h1>{{ name }}</h1>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<h1 class="text-center py-2 my-2">{{ name }}</h1>
 
-<h2>Customers</h2>
-<ul>
-  <li *ngFor="let customer of customers">{{ customer.firstname }} {{ customer.lastname }}</li>
-</ul>
+<div class="container mt-2" style="max-width: 1000px;">
+  <div class="columns">
+    <div class="column col-6">
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">Quick implementation</div>
+        </div>
+        <!--<div class="panel-nav">-->
+        <!--&lt;!&ndash; navigation components: tabs, breadcrumbs or pagination &ndash;&gt;-->
+        <!--</div>-->
+        <div class="panel-body">
+          <!-- contents -->
+        </div>
+        <!--<div class="panel-footer">-->
+        <!--&lt;!&ndash; buttons or inputs &ndash;&gt;-->
+        <!--</div>-->
+      </div>
+    </div>
 
-<h2>Events</h2>
-<ul>
-  <li *ngFor="let event of events">{{ event.title }}</li>
-</ul>
+    <div class="column col-6">
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">Quick implementation</div>
+        </div>
+        <!--<div class="panel-nav">-->
+        <!--&lt;!&ndash; navigation components: tabs, breadcrumbs or pagination &ndash;&gt;-->
+        <!--</div>-->
+        <div class="panel-body">
+          <!-- contents -->
+        </div>
+        <!--<div class="panel-footer">-->
+        <!--&lt;!&ndash; buttons or inputs &ndash;&gt;-->
+        <!--</div>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container m-2">
+  <div class="columns">
+
+    <div class="column col-6 p-2 bg-gray">
+      <h2>Out of the box</h2>
+      <h4>Events</h4>
+      <div *ngIf="!events" class="loading"></div>
+      <ul>
+        <li *ngFor="let event of events">{{ event.title }}</li>
+      </ul>
+    </div>
+
+    <div class="column col-6 p-2 bg-gray">
+      <h2>Own service</h2>
+      <h4>Customers</h4>
+      <div *ngIf="!customers" class="loading"></div>
+      <ul>
+        <li *ngFor="let customer of customers">{{ customer.firstname }} {{ customer.lastname }}</li>
+      </ul>
+    </div>
+
+  </div>
+</div>

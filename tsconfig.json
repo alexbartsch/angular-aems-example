@@ -19,10 +19,10 @@
       "dom"
     ],
     "paths": {
-      "DEV-angular-aems": [
+      "angular-aems": [
         "dist/angular-aems"
       ],
-      "DEV-angular-aems/*": [
+      "angular-aems/*": [
         "dist/angular-aems/*"
       ]
     }
