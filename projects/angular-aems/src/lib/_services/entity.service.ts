@@ -1,14 +1,10 @@
 import { map } from 'rxjs/operators';
-import { Injectable } from '@angular/core';
 import { Observable, ReplaySubject } from 'rxjs';
 
 import { EntityResource } from '../_resources/entity.resource';
 import { EntityTransformer } from '../_transformers/entity.transformer';
 import { EntityConfig } from '../_interfaces/entity-config.interface';
 
-@Injectable({
-  providedIn: 'root'
-})
 export class EntityService<T> {
 
   config: EntityConfig;
@@ -30,7 +26,7 @@ export class EntityService<T> {
   }
 
   /**
-   * Get on item.
+   * Get one item.
    * @param id Id of the item you want to get.
    */
   getOne(id: number): Observable<T> {

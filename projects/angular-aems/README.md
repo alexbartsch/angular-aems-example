@@ -81,7 +81,7 @@ If you extend the EntityService, the following methods are available:
   }
 
   /**
-   * Get on item.
+   * Get one item.
    * @param id Id of the item you want to get.
    */
   getOne(id: number): Observable<T> {
