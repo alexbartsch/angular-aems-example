@@ -1,0 +1,3 @@
+[submodule "projects/angular-aems"]
+	path = projects/angular-aems
+	url = git@github.com:alexbartsch/angular-aems.git
